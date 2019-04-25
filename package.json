@@ -11,9 +11,10 @@
         "wl-pprint": ">= 0.0.1"
     },
     "compilerCompatibility": {
-        "pakcs": ">= 2.0.0",
-        "kics2": ">= 2.0.0"
+        "pakcs": ">= 2.0.0, < 3.0.0",
+        "kics2": ">= 2.0.0, < 3.0.0"
     },
+    "exportedModules": [ "Ninja.Types", "Ninja.Pretty" ],
     "source": {
       "git": "https://git.ps.informatik.uni-kiel.de/curry-packages/ninja.git",
       "tag": "$version"

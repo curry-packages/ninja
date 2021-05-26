@@ -1,11 +1,12 @@
 --- Module to pretty print Ninja build files
 --- @author Marc Andre Wittorf
---- @version 0.1
 
-module Ninja.Pretty(
-  renderNinja, ppFile,
-  ppDecl, ppDef, ppDefs, ppTargets, ppImplicitTargets, ppOrderOnlyTargets
-) where
+module Ninja.Pretty
+  ( renderNinja, ppFile
+  , ppDecl, ppDef, ppDefs, ppTargets, ppImplicitTargets, ppOrderOnlyTargets
+  ) where
+
+import Prelude hiding ( empty )
 
 import Text.Pretty
 

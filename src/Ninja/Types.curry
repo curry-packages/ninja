@@ -1,13 +1,10 @@
 --- Module to represent the structure of Ninja build files
 --- @author Marc Andre Wittorf
---- @version 0.1
 
 module Ninja.Types(
   File(..), Decl(..),
   Def, Target, RuleName
 ) where
-
-import FilePath
 
 -- This tries to be as close as possible to Ninja file reference
 -- https://ninja-build.org/manual.html#_Ninja_file_reference

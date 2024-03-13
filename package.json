@@ -13,7 +13,7 @@
     },
     "exportedModules": [ "Ninja.Types", "Ninja.Pretty" ],
     "source": {
-      "git": "https://git.ps.informatik.uni-kiel.de/curry-packages/ninja.git",
+      "git": "https://github.com/curry-packages/ninja.git",
       "tag": "$version"
     }
 }
